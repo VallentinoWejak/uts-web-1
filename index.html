@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>tino</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body style="background-color: rgb(63, 64, 64);">
+  <!--header start-->
+  <nav class="navbar navbar-expand-lg bg-dark">
+    <div class="container-fluid text-bg-dark">
+      <img src="pizza-box.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-light" aria-current="page" href="#hero">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#menu">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#form">Booking</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#kontak">Contact</a>
+          </li>
+          <!-- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Dropdown
+            </a>
+
+          <li class="nav-item">
+            <a class="nav-link disabled text-light" aria-disabled="true">Disabled</a>
+          </li> -->
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!--header end-->
+  <!--title start-->
+  <div class="card text-bg-dark" id="hero">
+    <img src="piza.jpg" class="card-img" alt="...">
+    <div class="card-img-overlay">
+      <h1 aria-label="Hi! I'm a developer">
+        Lembata Pride&nbsp;<span class="typewriter thick"></span>
+      </h1>
+      <p class="card-text fs-4">Selamat datang di pengalaman cita rasa yang tak tertandingi! Kami dengan bangga mempersembahkan kepada Anda koleksi pizza premium kami.</p>
+      <p class="card-text fs-5"><small>owner valentino</small></p>
+      <button type="button mt-6" class="btn btn-warning ">Cepat Pesan!</button>
+    </div>
+  </div>
+  <!--title end-->
+  <div class="container" id="menu">
+    <!--card start-->
+    <div class="row row-cols-1 row-cols-md-2 g-4 mt-2">
+      <div class="col ">
+        <div class="card">
+          <img src="Pizza Pepperoni.jpg" class="card-img-top" alt="...">
+          <div class="card-body text-bg-dark text-light">
+            <h5 class="card-title">Pizza Papperoni</h5>
+            <p class="card-text">Jelajahi Sensasi Kuliner yang Luar Biasa dengan Pizza Pepperoni, Setiap Potongan Membawa Anda ke Dunia Rasa yang Kaya dan Menggugah Selera.</p>
+            <button type="button mt-4" class="btn btn-success">$8</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="pizza BBQ chicken.jpg" class="card-img-top" alt="...">
+          <div class="card-body text-bg-dark text-light">
+            <h5 class="card-title">Pizza BBQ Chicken</h5>
+            <p class="card-text">Sajian Aroma BBQ Chicken yang Menggoda, Memberikan Sensasi Panggang yang Menggetarkan dan Kelezatan yang Tak Terlupakan.</p>
+            <button type="button mt-4" class="btn btn-success">$9</button>
+          </div>
+        </div>
+      </div>
+      <!--card end-->
+
+    </div>
+    <!--card text start-->
+    <div class="card text-center bg-dark mt-3 text-light">
+      <div class="card-header">
+        SPECIAL MENU
+      </div>
+      <div class="card-body bg-dark text-light">
+        <h5 class="card-title">Temukan Kombinasi Rasa yang Menakjubkan dalam Pizza Spesial Kami!</h5>
+        <a href="#" class="btn btn-warning">Order Now</a>
+      </div>
+      <div class="card-footer text-body-secondary">
+        2 days ago
+      </div>
+    </div>
+    <!--card text end-->
+    <!--card group start-->
+    <div class="card-group">
+      <div class="card bg-dark text-light">
+        <img src="Pizza Hawaiian.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Pizza Hawaiian</h5>
+          <p class="card-text">Satu gigitan dan Anda akan terbang langsung ke pantai-pantai Hawaii! Kombinasi sempurna antara ham yang beraroma dan potongan nanas segar, di atas lapisan keju yang melumer.</p>
+          <button type="button mt-4" class="btn btn-success">$12</button>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Last updated 3 mins ago</small>
+        </div>
+      </div>
+      <div class="card bg-dark text-light">
+        <img src="Pizza Margherita.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Pizza Margherita</h5>
+          <p class="card-text">Dibuat dengan bahan-bahan terbaik, Pizza Margherita kami adalah simbol kesempurnaan. Keju mozzarella lembut, saus tomat segar, dan daun basil yang harum menggoda selera.</p>
+          <button type="button mt-9" class="btn btn-success">$25</button>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Last updated 3 mins ago</small>
+        </div>
+      </div>
+      <div class="card bg-dark text-light">
+        <img src="Pizza Supreme.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Pizza Supreme</h5>
+          <p class="card-text">Penuh dengan cita rasa dan kejutan, Pizza Supreme kami adalah pilihan yang tak terbantahkan bagi pecinta pizza petualang. Setiap irisan adalah perjalanan rasa yang tak terlupakan!</p>
+          <button type="button mt-4" class="btn btn-success">$34</button>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+    <!--card group end-->
+    <!--card pic start-->
+    <div class="card mb-3 mt-3 bg-dark text-light">
+      <img src="special pizza.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Pizza King</h5>
+        <p class="card-text">Sambutlah raja di dunia pizza dengan 'Pizza King' kami yang istimewa! Setiap irisan adalah mahkota rasa yang memuaskan dan memikat.</p>
+        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        <button type="button mt-4" class="btn btn-success">$50</button>
+      </div>
+    </div>
+    <!--card gift end-->
+    <!--form start-->
+    <div class="wrapper" id="form">
+      <div class="logo">
+        <img src="pizza-box.png" alt="">
+      </div>
+      <div class="text-center mt-4 name">
+        VALL PIZZZA
+      </div>
+      <form class="p-3 mt-3">
+        <div class="form-field d-flex align-items-center">
+          <span class="far fa-user"></span>
+          <input type="text" name="userName" id="userName" placeholder="Username">
+        </div>
+        <div class="form-field d-flex align-items-center">
+          <span class="fas fa-key"></span>
+          <input type="password" name="password" id="pwd" placeholder="Password">
+        </div>
+        <button class="btn mt-3 text-light ">Login</button>
+      </form>
+      <div class="text-center fs-6">
+        <a href="#">Forget password?</a> or <a href="#">Sign up</a>
+      </div>
+    </div>
+    <!--form end-->
+    <div class="d-flex flex-column h-100">
+
+      <!-- FOR DEMO PURPOSE -->
+      <section class="hero text-white py-5 flex-grow-1">
+        <div class="container py-4">
+          <div class="row">
+            <div class="col-lg-6">
+              <h1 class="display-4">Pizza Terbaik Hanya Ada Disini!</h1>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- FOOTER -->
+      <footer class="w-100 py-4 flex-shrink-0" id="kontak">
+        <div class="container py-4">
+          <div class="row gy-4 gx-5">
+            <div class="col-lg-4 col-md-6">
+              <h5 class="h1 text-white">About Me</h5>
+              <p class="small text-muted mb-0">&copy; Copyrights. All rights reserved.</p>
+            </div>
+            <div class="col-lg-2 col-md-6">
+              <h5 class="text-white mb-3">Contact</h5>
+              <ul class="list-unstyled text-muted">
+                <li><a href="#">081238991879</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-md-6">
+              <h5 class="text-white mb-3">Quick links</h5>
+              <ul class="list-unstyled text-muted">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Get started</a></li>
+                <li><a href="#">FAQ</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <h5 class="text-white mb-3">Massege</h5>
+              <p class="small text-light">
+                Terima kasih telah memilih pizza kami untuk menyempurnakan momen berharga Anda. Kami berharap Anda menikmati setiap irisan dengan sukacita.
+              </p>
+              <form action="#">
+                <div class="input-group mb-3">
+                  <input class="form-control" type="text" placeholder="Recipient's username"
+                    aria-label="Recipient's username" aria-describedby="button-addon2">
+                  <button class="btn btn-primary" id="button-addon2" type="button"><i
+                      class="fas fa-paper-plane"></i></button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>

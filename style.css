@@ -1,0 +1,217 @@
+/* Importing fonts from Google */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+/* Reseting */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #282929;
+}
+
+.wrapper {
+    max-width: 350px;
+    min-height: 500px;
+    margin: 45px auto;
+    padding: 40px 30px 30px 30px;
+    background-color: #272728;
+    border-radius: 15px;
+    box-shadow: 13px 13px 20px #282929, -13px -13px 20px #383737;
+}
+
+.logo {
+    width: 80px;
+    margin: auto;
+}
+
+.logo img {
+    width: 100%;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0px 0px 3px #5f5f5f,
+        0px 0px 0px 5px #1e1e1e,
+        8px 8px 15px #1f201f,
+        -8px -8px 15px #242323;
+}
+
+.wrapper .name {
+    font-weight: 600;
+    font-size: 1.4rem;
+    letter-spacing: 1.3px;
+    padding-left: 10px;
+    color: #f4f0f0;
+}
+
+.wrapper .form-field input {
+    width: 100%;
+    display: block;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.2rem;
+    color: #666;
+    padding: 10px 15px 10px 10px;
+    /* border: 1px solid red; */
+}
+
+.wrapper .form-field {
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: inset 8px 8px 8px #101010, inset -8px -8px 8px #fff;
+}
+
+.wrapper .form-field .fas {
+    color: #555;
+}
+
+.wrapper .btn {
+    box-shadow: none;
+    width: 100%;
+    height: 40px;
+    background-color: #ce8b05;
+    color: #ce8b05;
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px #343333,
+        -3px -3px 3px #282727;
+    letter-spacing: 1.3px;
+}
+
+.wrapper .btn:hover {
+    background-color: #ce8b05;
+}
+
+.wrapper a {
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: #ce8b05;
+}
+
+.wrapper a:hover {
+    color: #ce8b05;
+}
+
+@media(max-width: 380px) {
+    .wrapper {
+        margin: 30px 20px;
+        padding: 40px 15px 15px 15px;
+    }
+}
+
+h1 {
+    font-size: 9vmin;
+    color: #8bf;
+    text-align: left;
+    font-family: Lato, sans-serif;
+    font-weight: 700;
+    margin: 1rem 0 1rem 2rem;
+  }
+  
+  /* Typewriter effect 1 */
+  @keyframes typing {
+    0.0000%, 27.3488% { content: ""; }
+    1.1395%, 26.2093% { content: "V"; }
+    2.2791%, 25.0698% { content: "VA"; }
+    3.4186%, 23.9302% { content: "VALL"; }
+    4.5581%, 22.7907% { content: "VALL "; }
+    5.6977%, 21.6512% { content: "VALL P "; }
+    6.8372%, 20.5116% { content: "VALL PI"; }
+    7.9767%, 19.3721% { content: "VALL PIZ"; }
+    9.1163%, 18.2326% { content: "VALL PIZZ"; }
+    10.2558%, 17.0930% { content: "VALL PIZZA"; }
+  
+  }
+  
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  }
+  
+  .typewriter {
+    --caret: currentcolor;
+  }
+  
+  .typewriter::before {
+    content: "";
+    animation: typing 13.5s infinite;
+  }
+  
+  .typewriter::after {
+    content: "";
+    border-right: 1px solid var(--caret);
+    animation: blink 0.5s linear infinite;
+  }
+  
+  .typewriter.thick::after {
+    border-right: 1ch solid var(--caret);
+  }
+  
+  .typewriter.nocaret::after {
+    border-right: 0;
+  }
+  
+  
+  @media (prefers-reduced-motion) {
+    .typewriter::after {
+      animation: none;
+    }
+    
+    @keyframes sequencePopup {
+      0%, 100% { content: "VALL PIZZA"; }
+  
+    }
+  
+    .typewriter::before {
+      content: "VALL PIZZA";
+      animation: sequencePopup 12s linear infinite;
+    }
+  }
+  
+  /**/
+  
+/* ==========================================
+    FOR DEMO PURPOSE
+  ========================================== */
+  body {
+    background: #2a2e32;
+  }
+  
+  .text-small {
+    font-size: 0.9rem;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+  
+  a:hover, a:focus {
+    text-decoration: none;
+  }
+  
+  .form-control {
+    background: #212529;
+    border-color: #545454;
+  }
+  
+  .form-control:focus {
+    background: #212529;
+  }
+  
+  footer {
+    background: #212529;
+  }
+  
+  
+  /* ==========================================
+      CUSTOM UTILS CLASSES
+    ========================================== */
+    body, html {
+      height: 100%;
+    }
